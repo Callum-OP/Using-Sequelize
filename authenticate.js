@@ -2,7 +2,7 @@
 const Sequelize = require('sequelize');
 
 //MySQL connection path
-const path = 'mysql://user12:12user@localhost:3306/testdb';
+const path = 'mysql://callum:password@localhost:3306/testdb';
 
 //instantiate Sequelize
 const sequelize = new Sequelize(path, { operatorsAliases: false });
